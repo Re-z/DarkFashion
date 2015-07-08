@@ -125,7 +125,7 @@ header {
 }
 /* HEADER FINISHED, CONTENT STARTED */
 .content-wrapper {
-    height: 1000px;
+    height: 1294px;
     outline: 1px solid white;
     background: url("img/bg3.png");
 }
@@ -140,7 +140,7 @@ header {
 .content {
   outline: 1px solid blue;
   width: 960px;
-  height: 900px;
+  height: 1249px;
   margin: 0 auto;
   margin-top: 39px;
 }
@@ -149,7 +149,6 @@ header {
     float: left;
     width: 50%;
     height: 668px;
-    outline: 1px solid white;
 }
 .quote-block {
     float: left;
@@ -200,20 +199,20 @@ header {
     padding-top: 31px;
     background-color: rgba(0,0,0,0.25);
 }
-.quote-block__text2:before {
+.quote-block2__text:before {
     content: url("img/line-quote.png");
     position: relative;
     top: -23px;
     left: -3px;
 }
-.quote-block__text2:after{
+.quote-block2__text:after{
     content: url("img/line-quote.png");
     position: relative;
     top: 30px;
     left: -4px;
 }
 
-.quote-block__text2 {
+.quote-block2__text {
       font-family: Georgia-Italic, serif;
       font-size: 24px;
       color: #787878;
@@ -229,7 +228,6 @@ header {
     float: right;
     width: 50%;
     height: 668px;
-    outline: 1px dashed #008000;
     padding-left: 6px;
 }
 .item2 {
@@ -237,32 +235,125 @@ header {
     margin-right: 15px;
 }
 .quote-block3 {
-    margin-top: 11px;
     float: left;
+    margin-top: 14px;
     width: 228px;
-    height: 215px;
+    height: 210px;
     padding-top: 31px;
     background-color: rgba(0,0,0,0.25);
 }
-.quote-block__text3:before {
+.quote-block3__text:before {
     content: url("img/line-quote.png");
     position: relative;
-    top: -23px;
+    top: -26px;
 }
-.quote-block__text3:after{
+.quote-block3__text:after{
     content: url("img/line-quote.png");
     position: relative;
     top: 30px;
 }
 
-.quote-block__text3 {
+.quote-block3__text {
       font-family: Georgia-Italic, serif;
       font-size: 24px;
       color: #787878;
       text-align: center;
-      line-height: 29px;
+      line-height: 28px;
 }
 .item7 {
       float: right;
       margin-top: 48px;
+}
+/*START 3 SECTION */
+.imgs-wrap3 {
+    height: 459px;
+    width: 50%;
+    float: left;
+    padding-top: 17px;
+    padding-right: 10px;
+
+}
+.item8 {
+    float: left;
+}
+.item9 {
+    float: right;
+}
+.quote-block4 {
+    float: left;
+    margin-top: 14px;
+    margin-left: 13px;
+    width: 228px;
+    height: 210px;
+    padding-top: 31px;
+    background-color: rgba(0,0,0,0.25);
+}
+.quote-block4__text:before {
+    content: url("img/line-quote.png");
+    position: relative;
+    top: -20px;
+    left: -22px;
+}
+.quote-block4__text:after{
+    content: url("img/line-quote.png");
+    position: relative;
+    top: 29px;
+    left: -22px;
+}
+
+.quote-block4__text {
+    font-family: Georgia-Italic, serif;
+    font-size: 24px;
+    color: #787878;
+    width: 155px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: 37px;
+}
+/*START 4 SECTION */
+.imgs-wrap4 {
+    float: right;
+    width: 50%;
+    height: 459px;
+    padding-top: 17px;
+    padding-left: 5px;
+}
+.item10 {
+    float: left;
+}
+.quote-block5 {
+    float: left;
+    margin-top: -4px;
+    margin-left: 16px;
+    width: 228px;
+    height: 210px;
+    padding-top: 31px;
+    background-color: rgba(0,0,0,0.25);
+}
+.quote-block5__text:before {
+    content: url("img/line-quote.png");
+    position: relative;
+    top: -20px;
+    left: -22px;
+}
+.quote-block5__text:after{
+    content: url("img/line-quote.png");
+    position: relative;
+    top: 29px;
+    left: -22px;
+}
+
+.quote-block5__text {
+    font-family: Georgia-Italic, serif;
+    font-size: 24px;
+    color: #787878;
+    width: 155px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: 37px;
+}
+.item11 {
+    margin-top: 17px;
 }
