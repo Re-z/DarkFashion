@@ -1,0 +1,94 @@
+.sb-twitter-small, .speech-quotes, .line-quote, .sb-ball-big, .sb-fb-big, .sb-fb-small, .sb-in-big, .sb-manTree-bigl, .sb-manTree-small, .sb-message-small, .sb-points-big, .sb-rss-bigl, .sb-rss-small, .sb-socials-small, .sb-twitter-big{
+	background: url(sprites.png) no-repeat;
+}
+
+.sb-twitter-small{
+	background-position: 0 -173px ;
+	width: 25px;
+	height: 25px;
+}
+
+.speech-quotes{
+	background-position: -5px -155px ;
+	width: 13px;
+	height: 12px;
+}
+
+.line-quote{
+	background-position: -50px -114px ;
+	width: 200px;
+	height: 26px;
+}
+
+.sb-ball-big{
+	background-position: -169px 0;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-fb-big{
+	background-position: 0 -251px ;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-fb-small{
+	background-position: 0 -116px ;
+	width: 25px;
+	height: 25px;
+}
+
+.sb-in-big{
+	background-position: -49px 0;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-manTree-bigl{
+	background-position: -123px -254px ;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-manTree-small{
+	background-position: 0 -84px ;
+	width: 25px;
+	height: 25px;
+}
+
+.sb-message-small{
+	background-position: 0 -58px ;
+	width: 25px;
+	height: 25px;
+}
+
+.sb-points-big{
+	background-position: -65px -148px ;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-rss-bigl{
+	background-position: -124px -375px ;
+	width: 104px;
+	height: 105px;
+}
+
+.sb-rss-small{
+	background-position: 0 -29px ;
+	width: 25px;
+	height: 25px;
+}
+
+.sb-socials-small{
+	background-position: 0 0;
+	width: 25px;
+	height: 25px;
+}
+
+.sb-twitter-big{
+	background-position: 0 -375px ;
+	width: 104px;
+	height: 105px;
+}
+
