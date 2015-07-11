@@ -82,7 +82,7 @@ header {
 }
 .main-menu__item:hover {
     background-color: #1D97DA;
-    transition: .7s;
+    transition: .7s; /*НЕ ПАШЕТ В 9 и 8 IE */
 }
 .main-menu__link {
     color: #FFFDFF;
@@ -126,7 +126,7 @@ header {
 /* HEADER FINISHED, CONTENT STARTED */
 .content-wrapper {
     border-bottom: 1px solid #0E0E0E;
-    box-shadow: 0 10px 10px black;
+    box-shadow: 0 10px 10px black; /* НЕ ПАШЕТ! */
     height: 1294px;
     background: url("img/bg3.png");
 }
@@ -161,29 +161,35 @@ header {
     content: url("img/line-quote.png");
     position: relative;
     top: -23px;
+    left: -19px;
 }
 .quote-block__text:after{
     content: url("img/line-quote.png");
     position: relative;
     top: 30px;
+    left: -19px;
 }
 
 .quote-block__text {
-      font-family: Georgia-Italic, serif;
-      font-size: 24px;
-      color: #787878;
-      text-align: center;
-      line-height: 29px;
+    position: relative;
+    left: 35px;
+    width: 160px;
+    font-family: Georgia-Italic, serif;
+    font-size: 24px;
+    color: #787878;
+    text-align: center;
+    line-height: 29px;
 }
 .item1 {
+    margin-top: 2px;
     margin-left: 16px;
 }
 .item4 {
-    margin-top: 12px;
+    margin-top: 10px;
     float: left;
 }
 .item5 {
-    margin-top: 12px;
+    margin-top: 11px;
     margin-left: 13px;
 }
 .item6 {
@@ -193,76 +199,86 @@ header {
 }
 .quote-block2 {
     float: left;
-    margin-top: 14px;
+    margin-top: 12px;
     width: 228px;
-    height: 210px;
+    height: 212px;
     padding-top: 31px;
     background-color: rgba(0,0,0,0.25);
 }
 .quote-block2__text:before {
     content: url("img/line-quote.png");
     position: relative;
-    top: -23px;
-    left: -3px;
+    top: -22px;
+    left: -40px;
 }
 .quote-block2__text:after{
     content: url("img/line-quote.png");
     position: relative;
-    top: 30px;
-    left: -4px;
+    top: 31px;
+    left: -39px;
 }
 
 .quote-block2__text {
-      font-family: Georgia-Italic, serif;
-      font-size: 24px;
-      color: #787878;
-      width: 221px;
-      text-align: center;
-      line-height: 29px;
-      position: relative;
-      top: -4px;
-      left: 7px;
+    font-family: Georgia-Italic, serif;
+    font-size: 24px;
+    color: #787878;
+    width: 124px;
+    text-align: center;
+    line-height: 29px;
+    position: relative;
+    top: -3px;
+    left: 54px;
 }
 /*START 2 SECTION */
 .imgs-wrap2 {
     float: right;
     width: 50%;
     height: 668px;
-    padding-left: 6px;
+    padding-left: 7px;
 }
 .item2 {
+    margin-top: 2px;
     float: left;
     margin-right: 15px;
 }
+.item3 {
+    margin-top: 2px;
+}
 .quote-block3 {
     float: left;
-    margin-top: 14px;
+    margin-top: 12px;
     width: 228px;
-    height: 210px;
+    height: 212px;
     padding-top: 31px;
     background-color: rgba(0,0,0,0.25);
 }
 .quote-block3__text:before {
     content: url("img/line-quote.png");
     position: relative;
-    top: -26px;
+    top: -21px;
+    left: -5px;
 }
 .quote-block3__text:after{
     content: url("img/line-quote.png");
     position: relative;
-    top: 30px;
+    top: 28px;
+    left: -5px;
 }
 
 .quote-block3__text {
-      font-family: Georgia-Italic, serif;
-      font-size: 24px;
-      color: #787878;
-      text-align: center;
-      line-height: 28px;
+    font-family: Georgia-Italic, serif;
+    font-size: 24px;
+    color: #787878;
+    text-align: center;
+    line-height: 30px;
+    width: 190px;
+    position: relative;
+    top: -5px;
+    left: 20px;
 }
 .item7 {
       float: right;
-      margin-top: 48px;
+      margin-top: 39px;
 }
 /*START 3 SECTION */
 .imgs-wrap3 {
@@ -270,7 +286,7 @@ header {
     width: 50%;
     float: left;
     padding-top: 17px;
-    padding-right: 10px;
+    padding-right: 8px;
 
 }
 .item8 {
@@ -281,12 +297,12 @@ header {
 }
 .quote-block4 {
     float: left;
-    margin-top: 14px;
-    margin-left: 13px;
+    margin-top: 16px;
+    margin-left: 15px;
     width: 228px;
-    height: 210px;
+    height: 215px;
     padding-top: 31px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 .quote-block4__text:before {
     content: url("img/line-quote.png");
@@ -310,6 +326,7 @@ header {
     line-height: 30px;
     position: relative;
     left: 37px;
+    top: -2px;
 }
 /*START 4 SECTION */
 .imgs-wrap4 {
@@ -317,14 +334,13 @@ header {
     width: 50%;
     height: 459px;
     padding-top: 17px;
-    padding-left: 5px;
+    padding-left: 7px;
 }
 .item10 {
     float: left;
 }
 .quote-block5 {
     float: left;
-    margin-top: -4px;
     margin-left: 16px;
     width: 228px;
     height: 210px;
@@ -352,7 +368,8 @@ header {
     text-align: center;
     line-height: 30px;
     position: relative;
-    left: 37px;
+    left: 35px;
+    top: -4px;
 }
 .item11 {
     margin-top: 17px;
@@ -388,10 +405,17 @@ header {
 }
 /*START FLICKR BLOCK */
 .flickr {
+    position: relative;
     float: left;
   margin-top: -26px;
   width: 273px;
   height: 210px;
+}
+.flickr:before {
+    content: url("img/lines.png");
+    position: absolute;
+    top: -3px;
+
 }
 .flickr__title {
       margin-left: -4px;
@@ -416,11 +440,18 @@ header {
 }
 /*START POPULAR BLOCK */
 .popular {
+    position: relative;
     float: left;
-  margin-left: 68px;
-  margin-top: -26px;
-  width: 271px;
-  height: 210px;
+    padding-left: 2px;
+    margin-left: 68px;
+    margin-top: -26px;
+    width: 271px;
+    height: 210px;
+    }
+.popular:before {
+    content: url("img/lines.png");
+    position: absolute;
+    top: -2px;
 }
 .popular__title {
     text-align: center;
@@ -465,11 +496,17 @@ header {
   margin-right: 1px;
 }
 .subscribe {
+    position: relative;
      float: left;
   margin-left: 74px;
   margin-top: -26px;
   width: 274px;
   height: 210px;
+}
+.subscribe:before {
+    content: url("img/lines.png");
+    position: absolute;
+    top: -3px;
 }
 .subscribe__title {
     text-align: center;
@@ -542,7 +579,7 @@ header {
     color: white;
     margin-top: 6px;
 }
-.test {
+.final-block {
     height: 100px;
     background: #1B1B1B;
 }
